@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+}
+
+/* Navbar */
+
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.nav-h2 {
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+
+/* Body 1 */
+.body1 {
+    width: 100%;
+    height: 400px;
+}
+
+.body1-img {
+    height: 350px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    background-image: url('https://images.unsplash.com/photo-1696426678238-ba1c5a257bf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: right;
+    border-radius: 9px;
+}
+
+.body1 h2 {
+    position: absolute;
+    right: 14.5rem;
+    margin-top: 7rem;
+    font-size: 35px;
+}
+
+.body1 p {
+    position: absolute;
+    margin-top: 10rem;
+    right: 17rem;
+    font-size: 15px;
+}
+
+.body1 button {
+    position: absolute;
+    margin-top: 16rem;
+    right: 34.5rem;
+    font-size: 15px;
+    padding: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 8px;
+    color: white;
+}
+
+.body1 button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+/* Body 2 */
+.body2 {
+    position: absolute;
+    margin-left: 3rem;
+    width: 95%;
+    height: 90px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.body2 p {
+    color: white;
+    position: center;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+/* Body 3 */
+.body3 {
+    width: 100%;
+    height: 350px;
+    background-color:  white;
+    display: flex;
+    gap: 50px;
+}
+
+.body3-card1{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+   margin-left: 15rem;
+   margin-top: 2rem;
+   border-radius: 7px;
+   border: 1px solid rgb(173, 172, 172);
+}
+
+.body3-card1 p{
+    font-size: 18px;
+}
+
+.body3-card2{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+   margin-left: 40rem;
+   margin-top: 2rem;
+   border-radius: 7px;
+   border: 1px solid rgb(173, 172, 172);
+}
+.body3-card2 p{
+    font-size: 18px;
+}
+
+.body3-card3 {
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+   margin-left: 65rem;
+   margin-top: 2rem;
+   border-radius: 7px;
+   border: 1px solid rgb(173, 172, 172);
+}
+
+.body3-card3 p{
+    font-size: 18px;
+}
+
+/* Body 3 Card 1 */
+.body3-card1 h2 {
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.body3-card1 p {
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+}
+
+.body3-card1 button {
+    font-size: 15px;
+    padding: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.body3-card1 button:hover {
+    cursor: pointer;
+    background-color: grey;
+    transition: .2s;
+}
+
+/* Body 3 Card 2 */
+.body3-card2 h2 {
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.body3-card2 p {
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+}
+
+.body3-card2 button {
+    font-size: 15px;
+    padding: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.body3-card2 button:hover {
+    cursor: pointer;
+    background-color: grey;
+    transition: .2s;
+}
+
+/* Body 3 Card 3 */
+.body3-card3 h2 {
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.body3-card3 p {
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+}
+
+.body3-card3 button {
+    font-size: 15px;
+    padding: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.body3-card3 button:hover {
+    cursor: pointer;
+    background-color: grey;
+    transition: .2s;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.footer p {
+    color: white;
+    position: absolute;
+    margin-top: 2rem;
+    left: 50%;
+}
